@@ -1,0 +1,10 @@
+
+/* código omitido */
+
+.lista-menu {
+    display: none;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
